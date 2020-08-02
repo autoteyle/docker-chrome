@@ -11,7 +11,7 @@ for browser automation purposes.
 
 ## Usage
 
-    docker-compose up -d
+    $ docker-compose up -d
 
 ## Configuration
 Use environment variables for the configuration.
@@ -24,11 +24,17 @@ Available parameters along with the default values listed below.
 ## Development
 Run locally built image
 
-    docker-compose up
+    $ docker-compose up
+    Creating network "docker-chrome_default" with the default driver
+    Creating docker-chrome_app_1 ... done
+    Attaching to docker-chrome_app_1
+    app_1  | 
+    app_1  | DevTools listening on ws://0.0.0.0:9222/devtools/browser/ecf8046a-b5f0-43df-92b4-45c360b2f53f
+    
 
 Rebuild image
 
-    docker-compose build
+    $ docker-compose build
 
 ## Maintainers
 
