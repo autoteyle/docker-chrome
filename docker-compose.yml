@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    image: autoteyle/chrome-headless:dev
+    build:
+      context: .
+    ports:
+      - 9222:9222
